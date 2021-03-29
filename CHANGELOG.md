@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.0.0...v1.0.1) (2021-03-29)
+
+
+### Bug Fixes
+
+* Package Paths ([0a654f2](https://github.com/CoCreate-app/CoCreate-unique/commit/0a654f2f07f5a4d1f3126f1c5482e60e3ea8ed0f))
+
 # 1.0.0 (2021-03-29)
 
 
