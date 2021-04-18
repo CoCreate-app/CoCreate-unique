@@ -9,7 +9,7 @@ A simple unique component in vanilla javascript. Easily configured using HTML5 d
 
 ![CoCreate-unique](https://cdn.cocreate.app/docs/CoCreate-unique.gif)
 
-## [Docs & Demo](https://cocreate.app/docs/clone)
+## [Docs & Demo](https://cocreate.app/docs/unique)
 
 For a complete guide and working demo refer to the [doumentation](https://cocreate.app/docs/unique)
 
