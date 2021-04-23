@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.0.2...v1.0.3) (2021-04-23)
+
+
+### Bug Fixes
+
+* readme and documentation. Removed securitykeys ([47ac6a3](https://github.com/CoCreate-app/CoCreate-unique/commit/47ac6a314a50403a252b653bded3875304321101))
+
 ## [1.0.2](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.0.1...v1.0.2) (2021-04-19)
 
 
