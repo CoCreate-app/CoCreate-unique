@@ -1,3 +1,5 @@
+import uuid from '@cocreate/uuid'
+
 const CoCreateUnique = {
 
 	selector: `input[data-unique='true'], textarea[data-unique='true']`,
@@ -15,7 +17,7 @@ const CoCreateUnique = {
 		const self = this;
 		
 		items.forEach((item) => {
-			const request_id = CoCreate.utils.generateUUID();
+			const request_id = uuid.generate();
 			item.setAttribute(self.requestAttr, request_id);
 			self.setInputEvent(item)
 		})
