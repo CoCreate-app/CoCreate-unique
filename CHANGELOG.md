@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.0.6...v1.0.7) (2021-06-06)
+
+
+### Bug Fixes
+
+* add cocreate-uuid ([180d303](https://github.com/CoCreate-app/CoCreate-unique/commit/180d3036ebc00fb18782f4f6682fce7e1121209b))
+
 ## [1.0.6](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.0.5...v1.0.6) (2021-05-08)
 
 
