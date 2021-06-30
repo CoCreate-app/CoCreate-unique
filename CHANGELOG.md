@@ -1,3 +1,10 @@
+## [1.0.12](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.0.11...v1.0.12) (2021-06-30)
+
+
+### Bug Fixes
+
+* automated and manual workflows ([5a55e7f](https://github.com/CoCreate-app/CoCreate-unique/commit/5a55e7f0ffc0cfe9ea564d75c925f6902b3c385d))
+
 ## [1.0.11](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.0.10...v1.0.11) (2021-06-25)
 
 
