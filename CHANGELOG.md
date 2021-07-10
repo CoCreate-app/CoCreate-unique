@@ -1,3 +1,10 @@
+## [1.0.15](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.0.14...v1.0.15) (2021-07-10)
+
+
+### Bug Fixes
+
+* gitignore all logs ([2f97140](https://github.com/CoCreate-app/CoCreate-unique/commit/2f97140aa3cee2405c18d9214bcfdda5ec61430e))
+
 ## [1.0.14](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.0.13...v1.0.14) (2021-07-07)
 
 
