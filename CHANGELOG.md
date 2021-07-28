@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.0.18...v1.1.0) (2021-07-28)
+
+
+### Features
+
+* add new is{attribute} system and remove data- from attributtes ([cc33663](https://github.com/CoCreate-app/CoCreate-unique/commit/cc33663d311c2160f2671e8d91af245a30c06bee))
+
 ## [1.0.18](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.0.17...v1.0.18) (2021-07-17)
 
 
