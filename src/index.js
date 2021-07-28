@@ -51,7 +51,7 @@ const CoCreateUnique = {
 		input.addEventListener('input', function(e) {
 			//. request check input
 			let request_data = CoCreate.getCommonParams();
-			request_data['collection'] = input.getAttribute('data-collection');
+			request_data['collection'] = input.getAttribute('collection');
 			request_data['name'] = input.getAttribute('name')
 			request_data['value'] = e.target.value
 			request_data['request_id'] = input.getAttribute(self.requestAttr)
