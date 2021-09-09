@@ -1,3 +1,10 @@
+## [1.1.15](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.1.14...v1.1.15) (2021-09-09)
+
+
+### Bug Fixes
+
+* update dependency @cocreate/docs ([c7b9915](https://github.com/CoCreate-app/CoCreate-unique/commit/c7b9915a2ed2a6eff3b61098192ab2532c123c84))
+
 ## [1.1.14](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.1.13...v1.1.14) (2021-09-09)
 
 
