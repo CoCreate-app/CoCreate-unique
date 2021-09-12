@@ -1,3 +1,10 @@
+## [1.1.16](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.1.15...v1.1.16) (2021-09-12)
+
+
+### Bug Fixes
+
+* update sidenav to use resize and toggle ([d2a11ab](https://github.com/CoCreate-app/CoCreate-unique/commit/d2a11ab079915ab0bcc251a7e519c3c14adcbeb1))
+
 ## [1.1.15](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.1.14...v1.1.15) (2021-09-09)
 
 
