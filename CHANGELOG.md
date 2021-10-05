@@ -1,3 +1,11 @@
+## [1.1.25](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.1.24...v1.1.25) (2021-10-05)
+
+
+### Bug Fixes
+
+* update dependencies ([45d8288](https://github.com/CoCreate-app/CoCreate-unique/commit/45d8288932ce853ba452f94c5f537fad84b5fcf4))
+* website_id in CoCreate.config ([b136648](https://github.com/CoCreate-app/CoCreate-unique/commit/b13664828bd1546c2a2aaad85c5c51aa8440adf2))
+
 ## [1.1.24](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.1.23...v1.1.24) (2021-10-04)
 
 
