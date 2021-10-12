@@ -1,28 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Unique | CoCreateJS</title>
-    
-    <!-- CoCreate Favicon -->
-    <link rel="icon" href="https://cdn.cocreate.app/favicon.ico" type="image/ico" sizes="16x16">
-  </head>
-  <body class="padding:20px">
-  
-    <form collection="users">
-      <input type="text" data-unique="true" class="floating-label" placeholder="Text" name="email">
-      <button class="submitBtn position:fixed bottom:15px right:15px bg-blue grow-hover round"><i class="far fa-save"></i></button>
-  
-    </form>
 
-	    <script>
-	      var config = {
-	        apiKey: 'c2b08663-06e3-440c-ef6f-13978b42883a',
-	        organization_Id: '5de0387b12e200ea63204d6c',
-	        host: 'ws.cocreate.app'
-	      }
-	    </script>
-	    
+    <head>
+        <title>Unique | CoCreateJS</title>
+
+        <!-- CoCreate Favicon -->
+        <link rel="icon" href="https://cdn.cocreate.app/favicon.ico" type="image/ico" sizes="16x16">
+    </head>
+    <style>
+        [unique='true'] {
+            color: green;
+        }
+
+        [unique='false'] {
+            color: red;
+        }
+
+        [unique='true']+.floating-label_outline {
+            border-color: green;
+            color: green;
+        }
+
+        [unique='false']+.floating-label_outline {
+            border-color: red;
+            color: red;
+        }
+        [template_id="validate"].true {
+            display:block;
+        }
+    </style>
+
+    <body class="padding:20px">
+
+        <form collection="users" document_id realtime="false">
+            <input type="text" unique class="floating-label" placeholder="Name" name="name">
+            <input type="text" unique class="floating-label" placeholder="Email" name="email">
+            <button actions="validate, saveDocument" class="position:fixed bottom:15px right:15px background:dodgerblue grow-hover border-radius:50% padding:15px">
+			    <i class="far fa-save"></i>
+			</button>
+        </form>
+
+        <!--<div template_id="validate">-->
+            <div template_id="validate" render-array="data" class="template card {{type}} margin:10px">
+                <p class="{{status}} {{type}}">{{message}}</p><a actions="remove">X</a>
+            </div>
+        <!--</div>-->
+
         <!--<script src="../dist/CoCreate-unique.js"></script>-->
-	    <script src="../../../CoCreateJS/dist/CoCreate.js" ></script>
-  </body>
+        <script src="../../../CoCreateJS/dist/CoCreate.js"></script>
+    </body>
+
 </html>
