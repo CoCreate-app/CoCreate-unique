@@ -1,3 +1,10 @@
+## [1.1.27](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.1.26...v1.1.27) (2021-10-12)
+
+
+### Bug Fixes
+
+* bug returning true or false ([cd3dae0](https://github.com/CoCreate-app/CoCreate-unique/commit/cd3dae0da1645122a83cfd9a8fa2c877ca846994))
+
 ## [1.1.26](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.1.25...v1.1.26) (2021-10-06)
 
 
