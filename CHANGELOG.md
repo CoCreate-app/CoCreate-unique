@@ -1,3 +1,10 @@
+## [1.1.30](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.1.29...v1.1.30) (2021-10-14)
+
+
+### Bug Fixes
+
+* updated action name in demo to removeElement ([4ecbdf4](https://github.com/CoCreate-app/CoCreate-unique/commit/4ecbdf48347524283aba663822076fbdb4d97eeb))
+
 ## [1.1.29](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.1.28...v1.1.29) (2021-10-13)
 
 
