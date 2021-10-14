@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.1.30...v1.2.0) (2021-10-14)
+
+
+### Bug Fixes
+
+* updated dependencies ([485de28](https://github.com/CoCreate-app/CoCreate-unique/commit/485de289b7ccc77db38873a477b1365d4c46b6c3))
+
+
+### Features
+
+* getValue using [@cocreate](https://github.com/cocreate).input to support value-prfix and value-suffix ([e7f8a69](https://github.com/CoCreate-app/CoCreate-unique/commit/e7f8a693cc59f4bbf32e613b7e2f9ac3dbb1b0b0))
+
 ## [1.1.30](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.1.29...v1.1.30) (2021-10-14)
 
 
