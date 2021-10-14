@@ -40,11 +40,9 @@
 			</button>
         </form>
 
-        <!--<div template_id="validate">-->
-            <div template_id="validate" render-array="data" class="template card {{type}} margin:10px">
-                <p class="{{status}} {{type}}">{{message}}</p><a actions="remove">X</a>
-            </div>
-        <!--</div>-->
+        <div template_id="validate" class="template card {{type}} margin:10px">
+            <p class="{{status}} {{type}}">{{message}}</p><a actions="removeElement">X</a>
+        </div>
 
         <!--<script src="../dist/CoCreate-unique.js"></script>-->
         <script src="../../../CoCreateJS/dist/CoCreate.js"></script>
