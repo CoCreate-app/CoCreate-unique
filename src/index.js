@@ -1,5 +1,7 @@
-import crud from '@cocreate/crud-client'
-import uuid from '@cocreate/uuid'
+/*globals CoCreate*/
+
+import crud from '@cocreate/crud-client';
+import uuid from '@cocreate/uuid';
 
 const CoCreateUnique = {
 
@@ -49,27 +51,17 @@ const CoCreateUnique = {
 		const self = this;
 		input.addEventListener('input', function(e) {
 			let request_data = {};
+			let value = CoCreate.input.getValue(input);
 			request_data['organization_id'] = window.config.organization_Id;
 			request_data['apiKey'] = window.config.apiKey;
 			request_data['collection'] = input.getAttribute('collection');
 			request_data['name'] = input.getAttribute('name');
-			request_data['value'] = e.target.value;
+			request_data['value'] = value || e.target.value;
 			request_data['request_id'] = input.getAttribute(self.requestAttr);
 			crud.send('checkUnique', request_data);
-		})
-		
+		});
 	},
-	
-	// checkValidate: function(form) {
-	// 	const items = form.querySelectorAll(this.selector);
-	// 	for (let i = 0; i < items.length; i++) {
-	// 		if (!items[i].classList.contains('data-unique-success')) {
-	// 			return false;
-	// 		}
-	// 	}
-	// 	return true;
-	// }
-}
+};
 
 CoCreateUnique.init();
-CoCreateUnique.initListener()
+CoCreateUnique.initListener();
