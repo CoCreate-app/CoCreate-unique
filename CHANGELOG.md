@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.2.3...v1.2.4) (2021-10-16)
+
+
+### Bug Fixes
+
+* update socket package to fix bug in docs ([f8f3942](https://github.com/CoCreate-app/CoCreate-unique/commit/f8f39429d72e5e56be31a8e4a40e05796430ed31))
+
 ## [1.2.3](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.2.2...v1.2.3) (2021-10-15)
 
 
