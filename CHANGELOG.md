@@ -1,3 +1,10 @@
+## [1.2.8](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.2.7...v1.2.8) (2021-11-04)
+
+
+### Bug Fixes
+
+* update packages ([5b5984a](https://github.com/CoCreate-app/CoCreate-unique/commit/5b5984a277e6c1f599d6ad811f07b2ba7b21a8ee))
+
 ## [1.2.7](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.2.6...v1.2.7) (2021-11-01)
 
 
