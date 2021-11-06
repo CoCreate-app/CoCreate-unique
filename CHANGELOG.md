@@ -1,3 +1,10 @@
+## [1.2.10](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.2.9...v1.2.10) (2021-11-06)
+
+
+### Bug Fixes
+
+* typo with getValue function usage ([365bffe](https://github.com/CoCreate-app/CoCreate-unique/commit/365bffe16c28ad9b504fbef192d8a52b090e4d4c))
+
 ## [1.2.9](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.2.8...v1.2.9) (2021-11-04)
 
 
