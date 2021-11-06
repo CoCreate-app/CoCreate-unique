@@ -1,5 +1,3 @@
-/*globals CoCreate*/
-
 import crud from '@cocreate/crud-client';
 import uuid from '@cocreate/uuid';
 
@@ -51,7 +49,7 @@ const CoCreateUnique = {
 		const self = this;
 		input.addEventListener('input', function(e) {
 			let request_data = {};
-			let value = CoCreate.input.getValue(input);
+			let value = input.getValue(input);
 			request_data['organization_id'] = window.config.organization_Id;
 			request_data['apiKey'] = window.config.apiKey;
 			request_data['collection'] = input.getAttribute('collection');
