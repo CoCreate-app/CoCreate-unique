@@ -1,3 +1,10 @@
+## [1.2.20](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.2.19...v1.2.20) (2021-11-26)
+
+
+### Bug Fixes
+
+* docs sidenav width ([3396cc8](https://github.com/CoCreate-app/CoCreate-unique/commit/3396cc8fd6e915be95e210f8de86b4f5ec11cab7))
+
 ## [1.2.19](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.2.18...v1.2.19) (2021-11-26)
 
 
