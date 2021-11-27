@@ -1,3 +1,10 @@
+## [1.2.21](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.2.20...v1.2.21) (2021-11-27)
+
+
+### Bug Fixes
+
+* update docs api and cocreateJS script ([6329723](https://github.com/CoCreate-app/CoCreate-unique/commit/6329723870236ae7da7839d646040c1f29b470a9))
+
 ## [1.2.20](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.2.19...v1.2.20) (2021-11-26)
 
 
