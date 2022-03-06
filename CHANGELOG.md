@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.3.0...v1.3.1) (2022-03-06)
+
+
+### Bug Fixes
+
+* update param roomInfo to socketInfo ([3e2cf6c](https://github.com/CoCreate-app/CoCreate-unique/commit/3e2cf6c4a18d03301934ea9681910f3890829fbe))
+
 # [1.3.0](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.2.33...v1.3.0) (2022-03-03)
 
 
