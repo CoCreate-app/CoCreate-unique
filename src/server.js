@@ -8,7 +8,7 @@ class CoCreateUnique {
 	init() {
 		if (this.wsManager) {
 			this.wsManager.on('checkUnique', 
-				(socket, data, roomInfo) => this.checkUnique(socket, data, roomInfo));
+				(socket, data, socketInfo) => this.checkUnique(socket, data, socketInfo));
 		}
 	}
 
