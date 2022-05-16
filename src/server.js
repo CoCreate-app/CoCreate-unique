@@ -13,7 +13,7 @@ class CoCreateUnique {
 	}
 
 
-	async checkUnique(socket, req_data) {
+	async checkUnique(socket, req_data, socketInfo) {
 		const self = this
 		const db = this.dbClient.db(req_data['organization_id']);
 		const collection = db.collection(req_data["collection"]);
@@ -32,7 +32,7 @@ class CoCreateUnique {
 					if (result.length) {
 						response.unique = false;
 					}
-					self.wsManager.send(socket, 'checkedUnique', response, req_data['organization_id']);
+					self.wsManager.send(socket, 'checkedUnique', response, socketInfo);
 				}
 			});
 		} catch (error) {
