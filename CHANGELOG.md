@@ -1,3 +1,11 @@
+## [1.4.1](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.4.0...v1.4.1) (2022-05-17)
+
+
+### Bug Fixes
+
+* get orgId from socketInfo ([2edff44](https://github.com/CoCreate-app/CoCreate-unique/commit/2edff44369733c525c6cc1e4fd3881f8d3dc889b))
+* update document_id on link index.css ([661d333](https://github.com/CoCreate-app/CoCreate-unique/commit/661d333a5af6dd272ff2f0d8d84f073ec9366dec))
+
 # [1.4.0](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.3.2...v1.4.0) (2022-05-14)
 
 
