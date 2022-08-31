@@ -49,7 +49,7 @@ const CoCreateUnique = {
 		const self = this;
 		input.addEventListener('input', function(e) {
 			let request_data = {};
-			let value = input.getValue(input);
+			let value = input.getValue();
 			request_data['organization_id'] = window.config.organization_id;
 			request_data['apiKey'] = window.config.apiKey;
 			request_data['collection'] = input.getAttribute('collection');
