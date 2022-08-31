@@ -1,3 +1,10 @@
+## [1.4.5](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.4.4...v1.4.5) (2022-08-31)
+
+
+### Bug Fixes
+
+* getValue and setValue using HTMLElement.prototype ([94f9c1c](https://github.com/CoCreate-app/CoCreate-unique/commit/94f9c1cd6bb2381750caf9411866396f5559fb5d))
+
 ## [1.4.4](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.4.3...v1.4.4) (2022-06-18)
 
 
