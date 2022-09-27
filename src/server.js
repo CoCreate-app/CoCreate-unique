@@ -8,12 +8,12 @@ class CoCreateUnique {
 	init() {
 		if (this.wsManager) {
 			this.wsManager.on('checkUnique', 
-				(socket, data, socketInfo) => this.checkUnique(socket, data, socketInfo));
+				(socket, data) => this.checkUnique(socket, data));
 		}
 	}
 
 
-	async checkUnique(socket, req_data, socketInfo) {
+	async checkUnique(socket, req_data) {
 		const self = this
 		const db = this.dbClient.db(req_data['organization_id']);
 		const collection = db.collection(req_data["collection"]);
@@ -32,7 +32,7 @@ class CoCreateUnique {
 					if (result.length) {
 						response.unique = false;
 					}
-					self.wsManager.send(socket, 'checkedUnique', response, socketInfo);
+					self.wsManager.send(socket, 'checkedUnique', response);
 				}
 			});
 		} catch (error) {
