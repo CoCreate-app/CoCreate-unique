@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.4.6...v1.5.0) (2022-09-28)
+
+
+### Features
+
+* config is accessible from socket.config ([e473477](https://github.com/CoCreate-app/CoCreate-unique/commit/e4734771a22ad502bf2c3c0e09dfd39bf4544d1b))
+
 ## [1.4.6](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.4.5...v1.4.6) (2022-09-01)
 
 
