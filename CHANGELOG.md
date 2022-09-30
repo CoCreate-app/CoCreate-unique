@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.5.0...v1.5.1) (2022-09-30)
+
+
+### Bug Fixes
+
+* bump dependencies ([07a530f](https://github.com/CoCreate-app/CoCreate-unique/commit/07a530f4ec8b7d0b31daf897da554ea375e04f15))
+
 # [1.5.0](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.4.6...v1.5.0) (2022-09-28)
 
 
