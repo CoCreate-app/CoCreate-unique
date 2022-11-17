@@ -60,7 +60,7 @@ const CoCreateUnique = {
 			request_data['name'] = input.getAttribute('name');
 			request_data['value'] = value || e.target.value;
 			request_data['request_id'] = input.getAttribute(self.requestAttr);
-			crud.send('checkUnique', request_data);
+			crud.socket.send('checkUnique', request_data);
 		});
 	},
 };

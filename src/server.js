@@ -1,7 +1,7 @@
 class CoCreateUnique {
-	constructor(wsManager, dbClient) {
+	constructor(wsManager, crud) {
 		this.wsManager = wsManager
-		this.dbClient = dbClient
+		this.crud = crud
 		this.init();
 	}
 	
@@ -13,28 +13,26 @@ class CoCreateUnique {
 	}
 
 
-	async checkUnique(socket, req_data) {
+	async checkUnique(socket, data) {
 		const self = this
-		const db = this.dbClient.db(req_data['organization_id']);
-		const collection = db.collection(req_data["collection"]);
-		const query = {
-			[req_data['name']]: req_data['value']
-		};
-		
 		try {
-			collection.find(query).toArray(function(error, result) {
-				if (!error && result) {
-					let response = {
-						request_id: req_data['request_id'],
-						name: req_data['name'],
-						unique: true
-					};
-					if (result.length) {
-						response.unique = false;
-					}
-					self.wsManager.send(socket, 'checkedUnique', response);
+			data.filter = {
+				query: [
+					{name: data['name'], value: data['value'], operator: '$eq'}
+				]
+			}
+
+			this.crud.readDocument(data).then((data) => {
+				let response = {
+					request_id: data['request_id'],
+					name: data['name'],
+					unique: true
+				};
+				if (data.document.length) {
+					response.unique = false;
 				}
-			});
+				self.wsManager.send(socket, 'checkedUnique', response);
+			})
 		} catch (error) {
 			console.log(error);
 		}
