@@ -1,3 +1,15 @@
+# [1.6.0](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.5.11...v1.6.0) (2022-11-21)
+
+
+### Bug Fixes
+
+* update crud functions to receive an array of objects as the response ([5ee57bf](https://github.com/CoCreate-app/CoCreate-unique/commit/5ee57bff3168597370c830eceeeee04814b7c0d6))
+
+
+### Features
+
+* updated to use new crud which has the abilty to use multiple databases ([ce3fdf2](https://github.com/CoCreate-app/CoCreate-unique/commit/ce3fdf2bbcad7110df7c9ac38e8ed89ebac90a45))
+
 ## [1.5.11](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.5.10...v1.5.11) (2022-10-02)
 
 
