@@ -1,11 +1,5 @@
-import CRUD from '@cocreate/crud-client';
+import crud from '@cocreate/crud-client';
 import uuid from '@cocreate/uuid';
-
-let crud
-if (CRUD && CRUD.default)
-	crud = CRUD.default
-else
-	crud = CRUD
 
 const CoCreateUnique = {
 
