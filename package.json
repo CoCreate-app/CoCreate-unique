@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/unique",
-  "version": "1.6.14",
+  "version": "1.6.15",
   "description": "A simple unique component in vanilla javascript. Easily configured using HTML5 attributes and/or JavaScript API.",
   "keywords": [
     "unique",
@@ -20,7 +20,9 @@
     "html5-framework",
     "javascript-framework"
   ],
-  "publishConfig": { "access": "public" },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "npx webpack --config webpack.config.js",
     "build": "NODE_ENV=production npx webpack --config webpack.config.js",
@@ -34,7 +36,9 @@
   },
   "author": "CoCreate LLC",
   "license": "MIT",
-  "bugs": { "url": "https://github.com/CoCreate-app/CoCreate-unique/issues" },
+  "bugs": {
+    "url": "https://github.com/CoCreate-app/CoCreate-unique/issues"
+  },
   "homepage": "https://cocreate.app/docs/unique",
   "funding": {
     "type": "GitHub Sponsors ❤",

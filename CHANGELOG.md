@@ -1,3 +1,10 @@
+## [1.6.15](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.6.14...v1.6.15) (2022-12-02)
+
+
+### Bug Fixes
+
+* docs ([5a65312](https://github.com/CoCreate-app/CoCreate-unique/commit/5a65312087f5002959b049449d1e9d64ebee7f13))
+
 ## [1.6.14](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.6.13...v1.6.14) (2022-12-02)
 
 
