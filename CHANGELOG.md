@@ -1,3 +1,11 @@
+## [1.6.14](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.6.13...v1.6.14) (2022-12-02)
+
+
+### Bug Fixes
+
+* bump dependencies ([e1630c1](https://github.com/CoCreate-app/CoCreate-unique/commit/e1630c18cd7b318c2f84cbe29016b455e936d4ea))
+* set broadcastBrowser to false ([1c32816](https://github.com/CoCreate-app/CoCreate-unique/commit/1c32816dce2ad27b0fea88c9ecd482f1c54896f9))
+
 ## [1.6.13](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.6.12...v1.6.13) (2022-11-28)
 
 
