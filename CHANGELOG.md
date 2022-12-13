@@ -1,3 +1,10 @@
+## [1.6.23](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.6.22...v1.6.23) (2022-12-13)
+
+
+### Bug Fixes
+
+* removed un used devDependencies ([49d49da](https://github.com/CoCreate-app/CoCreate-unique/commit/49d49dae5873825ca4c965e9c2329f2b70195747))
+
 ## [1.6.22](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.6.21...v1.6.22) (2022-12-13)
 
 
