@@ -1,3 +1,10 @@
+## [1.6.24](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.6.23...v1.6.24) (2022-12-15)
+
+
+### Bug Fixes
+
+* add missing dev dependency style-loader ([6ccbff1](https://github.com/CoCreate-app/CoCreate-unique/commit/6ccbff138dff432ce30178d5860fd13aed25cb07))
+
 ## [1.6.23](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.6.22...v1.6.23) (2022-12-13)
 
 
