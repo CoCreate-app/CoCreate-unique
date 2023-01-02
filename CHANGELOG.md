@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.6.35...v1.7.0) (2023-01-02)
+
+
+### Features
+
+* class="template" template_id="id" replaced with template="id" ([6170e6a](https://github.com/CoCreate-app/CoCreate-unique/commit/6170e6a1a308a85300ab47a5a22e8b784f971635))
+
 ## [1.6.35](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.6.34...v1.6.35) (2023-01-01)
 
 
