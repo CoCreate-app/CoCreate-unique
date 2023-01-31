@@ -1,3 +1,10 @@
+## [1.7.10](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.7.9...v1.7.10) (2023-01-31)
+
+
+### Bug Fixes
+
+* bump dependencies ([a0e11f9](https://github.com/CoCreate-app/CoCreate-unique/commit/a0e11f98ebf7eb3f8f4ed67cae6a4149bbcb96dc))
+
 ## [1.7.9](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.7.8...v1.7.9) (2023-01-30)
 
 
