@@ -1,3 +1,10 @@
+## [1.8.4](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.8.3...v1.8.4) (2023-04-11)
+
+
+### Bug Fixes
+
+* renamed domans to hosts ([dc62a23](https://github.com/CoCreate-app/CoCreate-unique/commit/dc62a23e3179ca1c8b0597feec270e618dcaa855))
+
 ## [1.8.3](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.8.2...v1.8.3) (2023-03-30)
 
 
