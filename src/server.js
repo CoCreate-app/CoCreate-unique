@@ -28,7 +28,7 @@ class CoCreateUnique {
 					name: data['name'],
 					unique: true
 				};
-				if (data.document.length) {
+				if (data.document && data.document.length) {
 					response.unique = false;
 				}
 				self.wsManager.send(socket, 'checkedUnique', response);
