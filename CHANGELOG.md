@@ -1,3 +1,15 @@
+# [1.9.0](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.8.6...v1.9.0) (2023-04-13)
+
+
+### Bug Fixes
+
+* document.length if condition ([fb37903](https://github.com/CoCreate-app/CoCreate-unique/commit/fb3790339d23cf23505446531d12f7e155dc03b1))
+
+
+### Features
+
+* supports checking indexeddb and server db ([51ff6c5](https://github.com/CoCreate-app/CoCreate-unique/commit/51ff6c57de1b217767763e7d06ca13fe4c216cac))
+
 ## [1.8.6](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.8.5...v1.8.6) (2023-04-11)
 
 
