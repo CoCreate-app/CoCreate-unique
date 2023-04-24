@@ -1,3 +1,11 @@
+## [1.10.3](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.10.2...v1.10.3) (2023-04-24)
+
+
+### Bug Fixes
+
+* updated worrkflows to v3 and node version 16 ([d706e20](https://github.com/CoCreate-app/CoCreate-unique/commit/d706e2009ab43cdc1096d4676105c7a117ff68f2))
+* workflow node version updated  16 ([8bd9726](https://github.com/CoCreate-app/CoCreate-unique/commit/8bd9726538c03306cd18eaee1b0be2b35ae70ae6))
+
 ## [1.10.2](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.10.1...v1.10.2) (2023-04-24)
 
 
