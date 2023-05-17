@@ -1,3 +1,4 @@
+// Check if browser, return client or server file
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
         define(["./client"], function (CoCreateUnique) {
