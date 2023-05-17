@@ -1,3 +1,18 @@
+# [1.11.0](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.10.8...v1.11.0) (2023-05-17)
+
+
+### Bug Fixes
+
+* Refactor server.js to include the uid field in the response object for readDocument method. ([beb58e2](https://github.com/CoCreate-app/CoCreate-unique/commit/beb58e20f3f8e9b8ed7d5ffb646b3af0897ef787))
+
+
+### Features
+
+* Add "unique" attribute to input fields ([ebb0765](https://github.com/CoCreate-app/CoCreate-unique/commit/ebb076581ca1b64df4a27dd21f5d56287eae4674))
+* Add unique input check and server implementation ([5469faa](https://github.com/CoCreate-app/CoCreate-unique/commit/5469faae84157d45b1fa583e1c20336cbeb8b500))
+* Import Observer and pass unique attributes to target and callback. ([a63801d](https://github.com/CoCreate-app/CoCreate-unique/commit/a63801da65d9cbeca605bd5ba0f66e43d1dd74c1))
+* Refactor client.js init() to take an element arg and handle arrays ([4e63aa0](https://github.com/CoCreate-app/CoCreate-unique/commit/4e63aa070d79ae817b4364582f23b3af2f772b2d))
+
 ## [1.10.8](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.10.7...v1.10.8) (2023-05-10)
 
 
