@@ -16,8 +16,9 @@ function initElement(element) {
 
 function setInputEvent(input) {
     let delayTimer
-
     input.addEventListener('input', function (e) {
+        input.setAttribute('unique', true);
+
         clearTimeout(delayTimer);
         delayTimer = setTimeout(function () {
             isUnique(input)
@@ -54,7 +55,11 @@ async function isUnique(element) {
         response = await crud.socket.send('isUnique', request)
     }
 
-    checkedUnique(response)
+    if (response.unique)
+        element.setAttribute('unique', true);
+    else
+        element.setAttribute('unique', false);
+
 }
 
 init();
