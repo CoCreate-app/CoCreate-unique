@@ -1,3 +1,4 @@
+import observer from '@cocreate/observer';
 import crud from '@cocreate/crud-client';
 
 function init() {
@@ -61,5 +62,13 @@ async function isUnique(element) {
         element.setAttribute('unique', false);
 
 }
+
+observer.init({
+    name: 'CoCreateUnique',
+    observe: ['addedNodes'],
+    target: '[unique]',
+    callback: mutation =>
+        initElement(mutation.target)
+});
 
 init();
