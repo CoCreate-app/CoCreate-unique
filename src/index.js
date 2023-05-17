@@ -1,7 +1,7 @@
 // Check if browser, return client or server file
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
-        define(["./client"], function (CoCreateUnique) {
+        define(["./client.js"], function (CoCreateUnique) {
             return factory(CoCreateUnique)
         });
     } else if (typeof module === 'object' && module.exports) {
