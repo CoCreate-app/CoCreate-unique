@@ -18,8 +18,8 @@ class CoCreateUnique {
         try {
             this.crud.readDocument(data).then((data) => {
                 let response = {
-                    name: data['name'],
-                    unique: true
+                    unique: true,
+                    uid: data.uid
                 };
                 if (data.document.length) {
                     response.unique = false;
