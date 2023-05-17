@@ -1,18 +1,14 @@
 import observer from '@cocreate/observer';
 import crud from '@cocreate/crud-client';
 
-function init() {
-    let elements = document.querySelectorAll('[unique]')
-    initElements(elements)
-}
 
-function initElements(elements) {
+function init(elements) {
+    if (!elements)
+        elements = document.querySelectorAll('[unique]')
+    else if (!Array.isArray(elements))
+        elements = [elements]
     for (let element of elements)
-        initElement(element)
-}
-
-function initElement(element) {
-    setInputEvent(element)
+        setInputEvent(element)
 }
 
 function setInputEvent(input) {
@@ -68,7 +64,9 @@ observer.init({
     observe: ['addedNodes'],
     target: '[unique]',
     callback: mutation =>
-        initElement(mutation.target)
+        init(mutation.target)
 });
 
 init();
+
+export default { init, isUnique }
