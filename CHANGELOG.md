@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.11.0...v1.11.1) (2023-05-18)
+
+
+### Bug Fixes
+
+* Refactor module imports for client file ([c0b1f24](https://github.com/CoCreate-app/CoCreate-unique/commit/c0b1f246e5adc69d953f62447b4fd4a5c8b6ae9e))
+
 # [1.11.0](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.10.8...v1.11.0) (2023-05-17)
 
 
