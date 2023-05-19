@@ -1,3 +1,10 @@
+## [1.11.2](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.11.1...v1.11.2) (2023-05-19)
+
+
+### Bug Fixes
+
+* update packages to latest version. This commit updates various packages in the dependencies section of the package.json file to their latest published versions, thereby fixing multiple bugs and improving overall performance. ([233efdf](https://github.com/CoCreate-app/CoCreate-unique/commit/233efdfa04d76a7823e028c4ab9e13e174822587))
+
 ## [1.11.1](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.11.0...v1.11.1) (2023-05-18)
 
 
