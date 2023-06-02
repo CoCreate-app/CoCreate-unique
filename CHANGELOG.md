@@ -1,3 +1,10 @@
+## [1.11.5](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.11.4...v1.11.5) (2023-06-02)
+
+
+### Bug Fixes
+
+* format demo html ([43f23b3](https://github.com/CoCreate-app/CoCreate-unique/commit/43f23b3827a654741af31bab255e54ca1196f4c3))
+
 ## [1.11.4](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.11.3...v1.11.4) (2023-05-21)
 
 
