@@ -1,52 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <title>Unique | CoCreateJS</title>
 
         <!-- CoCreate Favicon -->
-        <link rel="icon" href="https://cdn.cocreate.app/favicon.ico" type="image/ico" sizes="16x16">
-		<link rel="manifest" href="/manifest.webmanifest" />
-	</head>
+        <link
+            rel="icon"
+            href="https://cdn.cocreate.app/favicon.ico"
+            type="image/ico"
+            sizes="16x16" />
+        <link rel="manifest" href="/manifest.webmanifest" />
+    </head>
     <style>
-        [unique='true'] {
+        [unique="true"] {
             color: green;
         }
 
-        [unique='false'] {
+        [unique="false"] {
             color: red;
         }
 
-        [unique='true']+.floating-label_outline {
+        [unique="true"] + .floating-label_outline {
             border-color: green;
             color: green;
         }
 
-        [unique='false']+.floating-label_outline {
+        [unique="false"] + .floating-label_outline {
             border-color: red;
             color: red;
         }
         [template_id="validate"].true {
-            display:block;
+            display: block;
         }
     </style>
 
     <body class="padding:20px">
-
         <form collection="users" document_id realtime="false">
-            <input type="text" unique class="floating-label" placeholder="Name" name="name">
-            <input type="text" unique class="floating-label" placeholder="Email" name="email">
-            <button actions="validate, save" class="position:fixed bottom:15px right:15px background:dodgerblue grow-hover border-radius:50% padding:15px">
-			    <i class="height:20px fill:#505050" src="/assets/svg/save.svg"></i>
-			</button>
+            <input
+                type="text"
+                unique
+                class="floating-label"
+                placeholder="Name"
+                name="name" />
+            <input
+                type="text"
+                unique
+                class="floating-label"
+                placeholder="Email"
+                name="email" />
+            <button
+                actions="validate, save"
+                class="position:fixed bottom:15px right:15px background:dodgerblue grow-hover border-radius:50% padding:15px">
+                <i
+                    class="height:20px fill:#505050"
+                    src="/assets/svg/save.svg"></i>
+            </button>
         </form>
 
         <div template="validate" class="card {{type}} margin:10px">
-            <p class="{{status}} {{type}}">{{message}}</p><a actions="removeElement">X</a>
+            <p class="{{status}} {{type}}">{{message}}</p>
+            <a actions="removeElement">X</a>
         </div>
 
         <!--<script src="../dist/CoCreate-unique.js"></script>-->
         <script src="https://cdn.cocreate.app/latest/CoCreate.min.js"></script>
     </body>
-
 </html>
