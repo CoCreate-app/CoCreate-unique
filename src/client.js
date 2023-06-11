@@ -69,7 +69,7 @@ async function isUnique(element) {
 
     // If indexedb response is unique is true, check server response  
     if (response.unique) {
-        delete request.db
+        delete request.storage
         response = await crud.socket.send('isUnique', request)
     }
 
