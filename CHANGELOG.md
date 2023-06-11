@@ -1,3 +1,10 @@
+## [1.11.17](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.11.16...v1.11.17) (2023-06-11)
+
+
+### Bug Fixes
+
+* testing workflow ([ae0d251](https://github.com/CoCreate-app/CoCreate-unique/commit/ae0d25171b91fb881d5ab9d2f2fcd1c9b30c48ca))
+
 ## [1.11.16](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.11.15...v1.11.16) (2023-06-11)
 
 
