@@ -1,3 +1,11 @@
+## [1.11.12](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.11.11...v1.11.12) (2023-06-11)
+
+
+### Bug Fixes
+
+* renamed db to storage ([32b5060](https://github.com/CoCreate-app/CoCreate-unique/commit/32b506039c1c41d19b73cec5a141d3b915a1d200))
+* renamed hosts to host. the value can be a string or an array of strings ([76d4f4c](https://github.com/CoCreate-app/CoCreate-unique/commit/76d4f4ce0aec430bdd03b62c88b3b7e1ee2c0842))
+
 ## [1.11.11](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.11.10...v1.11.11) (2023-06-10)
 
 
