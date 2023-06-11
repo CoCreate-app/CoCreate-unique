@@ -1,3 +1,10 @@
+## [1.11.15](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.11.14...v1.11.15) (2023-06-11)
+
+
+### Bug Fixes
+
+* postintall error ([125e085](https://github.com/CoCreate-app/CoCreate-unique/commit/125e085e7ac1cf304d0cf0bd338bf7dd7afb17ef))
+
 ## [1.11.14](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.11.13...v1.11.14) (2023-06-11)
 
 
