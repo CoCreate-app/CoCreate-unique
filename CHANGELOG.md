@@ -1,3 +1,10 @@
+## [1.11.23](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.11.22...v1.11.23) (2023-06-14)
+
+
+### Bug Fixes
+
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([03623fc](https://github.com/CoCreate-app/CoCreate-unique/commit/03623fc5a9a20e92d87f65834115061df64b90e2))
+
 ## [1.11.22](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.11.21...v1.11.22) (2023-06-11)
 
 
