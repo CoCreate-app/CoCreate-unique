@@ -36,7 +36,7 @@ function setInputEvent(input) {
 }
 
 /**
-* Checks if a value is unique. This is a helper function for CRUD operations that need to be performed on documents in order to make sure they are unique.
+* Checks if a value is unique. This is a helper function for CRUD operations that need to be performed on objects in order to make sure they are unique.
 * 
 * @param element - The element that is being checked for uniqueness. It should have the attribute ` name `
 */
@@ -44,8 +44,9 @@ async function isUnique(element) {
     let name = element.getAttribute('name');
     let value = element.getValue();
     let request = {
+        method: 'read.object',
         db: 'indexeddb',
-        collection: element.getAttribute('collection'),
+        array: element.getAttribute('array'),
         filter: {
             query: [{
                 name,
@@ -55,22 +56,23 @@ async function isUnique(element) {
         }
     };
 
-    let data = await crud.readDocument(request)
+    let data = await crud.send(request)
     let response = {
         element,
         name,
         unique: true
     };
 
-    // If a document is returned, unique is set to false  
-    if (data.document && data.document.length) {
+    // If a object is returned, unique is set to false  
+    if (data.object && data.object.length) {
         response.unique = false;
     }
 
     // If indexedb response is unique is true, check server response  
     if (response.unique) {
         delete request.storage
-        response = await crud.socket.send('isUnique', request)
+        request.method = 'isUnique'
+        response = await crud.socket.send(request)
     }
 
     // Set unique attribute on the element

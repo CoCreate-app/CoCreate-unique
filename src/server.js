@@ -17,7 +17,7 @@ class CoCreateUnique {
 
 
     /**
-    * Checks if a document is unique by sending a message to the socket. This is a blocking call so it returns a Promise
+    * Checks if a object is unique by sending a message to the socket. This is a blocking call so it returns a Promise
     * 
     * @param socket - the socket to send the message to
     * @param data - the data to read from the database usually an object
@@ -27,16 +27,18 @@ class CoCreateUnique {
     async isUnique(socket, data) {
         const self = this
         try {
-            this.crud.readDocument(data).then((data) => {
+            data.method = 'read.object'
+            this.crud.send(data).then((data) => {
                 let response = {
+                    method: 'isUnique',
                     unique: true,
                     uid: data.uid
                 };
-                // If the document is unique
-                if (data.document.length) {
+                // If the object is unique
+                if (data.object.length) {
                     response.unique = false;
                 }
-                return self.wsManager.send(socket, 'isUnique', response);
+                return self.wsManager.send(socket, response);
             })
         } catch (error) {
             console.log(error);
