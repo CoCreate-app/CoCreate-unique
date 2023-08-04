@@ -41,7 +41,7 @@ function setInputEvent(input) {
 * @param element - The element that is being checked for uniqueness. It should have the attribute ` name `
 */
 async function isUnique(element) {
-    let name = element.getAttribute('name');
+    let key = element.getAttribute('key');
     let value = element.getValue();
     let request = {
         method: 'read.object',
@@ -49,7 +49,7 @@ async function isUnique(element) {
         array: element.getAttribute('array'),
         filter: {
             query: [{
-                name,
+                key,
                 value,
                 operator: '$eq'
             }]
@@ -59,7 +59,7 @@ async function isUnique(element) {
     let data = await crud.send(request)
     let response = {
         element,
-        name,
+        key,
         unique: true
     };
 
