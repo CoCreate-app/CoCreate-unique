@@ -1,3 +1,18 @@
+# [1.12.0](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.11.23...v1.12.0) (2023-08-16)
+
+
+### Bug Fixes
+
+* crud attributes renamed ([3bd1c3c](https://github.com/CoCreate-app/CoCreate-unique/commit/3bd1c3c216a38b079bdb208517dfe0973b347992))
+* replace -target -selector ([ebc7301](https://github.com/CoCreate-app/CoCreate-unique/commit/ebc73012cd92322d8fa235f9c63f32388afc957b))
+* webpack.config and package.json make use of mode=production instead of process.env ([2397f48](https://github.com/CoCreate-app/CoCreate-unique/commit/2397f481daf071537c0e6ec12808d7f594f88071))
+
+
+### Features
+
+* name attribute and variable renamed to key ([16d5987](https://github.com/CoCreate-app/CoCreate-unique/commit/16d5987e3f9f11843b078584ac87b1f02344c31c))
+* update template_id to render-selector attribute. update filter attributes to filter selector-attributes ([bd5a958](https://github.com/CoCreate-app/CoCreate-unique/commit/bd5a958d8000f559cc14f64b6e98e3a9349039e3))
+
 ## [1.11.23](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.11.22...v1.11.23) (2023-06-14)
 
 
