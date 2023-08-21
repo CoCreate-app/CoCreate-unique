@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.13.1...v1.14.0) (2023-08-21)
+
+
+### Features
+
+* Update cocreate dependencies for the latest features and bug fixes ([b9b47a6](https://github.com/CoCreate-app/CoCreate-unique/commit/b9b47a6ff241d8ded243bf3cf7b6ffe4fca7d4cb))
+
 ## [1.13.1](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.13.0...v1.13.1) (2023-08-21)
 
 
