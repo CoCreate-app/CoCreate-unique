@@ -47,7 +47,7 @@ async function isUnique(element) {
         method: 'read.object',
         db: 'indexeddb',
         array: element.getAttribute('array'),
-        filter: {
+        $filter: {
             query: [{
                 key,
                 value,
