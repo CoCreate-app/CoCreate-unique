@@ -1,3 +1,11 @@
+## [1.14.2](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.14.1...v1.14.2) (2023-09-17)
+
+
+### Bug Fixes
+
+* renamed filter to $filter ([5db5a1f](https://github.com/CoCreate-app/CoCreate-unique/commit/5db5a1f4795aa37574e69e3b5c4fa10b5b72895a))
+* socket referenced in the data object. data.socket ([da15823](https://github.com/CoCreate-app/CoCreate-unique/commit/da15823e0b781c921bad72363f3f4edeb8e85a09))
+
 ## [1.14.1](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.14.0...v1.14.1) (2023-08-21)
 
 
