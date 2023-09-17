@@ -10,8 +10,7 @@ class CoCreateUnique {
 
     init() {
         if (this.wsManager) {
-            this.wsManager.on('isUnique',
-                (socket, data) => this.isUnique(socket, data));
+            this.wsManager.on('isUnique', (data) => this.isUnique(data));
         }
     }
 
@@ -24,7 +23,7 @@ class CoCreateUnique {
     * 
     * @return { Promise } - resolves with the response from the server or rejects with an error if there was a
     */
-    async isUnique(socket, data) {
+    async isUnique(data) {
         const self = this
         try {
             data.method = 'read.object'
@@ -38,7 +37,7 @@ class CoCreateUnique {
                 if (data.object.length) {
                     response.unique = false;
                 }
-                return self.wsManager.send(socket, response);
+                return self.wsManager.send(response);
             })
         } catch (error) {
             console.log(error);
