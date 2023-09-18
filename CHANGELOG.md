@@ -1,3 +1,11 @@
+## [1.14.3](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.14.2...v1.14.3) (2023-09-18)
+
+
+### Bug Fixes
+
+*  Add path and pathname ([c99a4a2](https://github.com/CoCreate-app/CoCreate-unique/commit/c99a4a229043a9ad0772248e5e02c1bb323d6673))
+* Update dCoCreate dpendencies to latest versions ([971943a](https://github.com/CoCreate-app/CoCreate-unique/commit/971943a3889ff959eab02514469629666fa892c2))
+
 ## [1.14.2](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.14.1...v1.14.2) (2023-09-17)
 
 
