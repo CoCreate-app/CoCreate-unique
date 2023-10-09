@@ -1,3 +1,18 @@
+## [1.15.2](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.15.1...v1.15.2) (2023-10-09)
+
+
+### Bug Fixes
+
+* bump dependencies ([1957e22](https://github.com/CoCreate-app/CoCreate-unique/commit/1957e228b38230c24f182a485e32c4d029aef05b))
+* bump dependencies ([a791efd](https://github.com/CoCreate-app/CoCreate-unique/commit/a791efdb79678031e4fc07346b55cc1d8369c85a))
+
+## [1.15.1](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.15.0...v1.15.1) (2023-10-09)
+
+
+### Bug Fixes
+
+* bump cocreate dependency versions ([8960ef4](https://github.com/CoCreate-app/CoCreate-unique/commit/8960ef4193e32337ba5f42f9fbe098d3d91bef98))
+
 # [1.15.0](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.14.3...v1.15.0) (2023-09-19)
 
 
