@@ -42,7 +42,7 @@ function setInputEvent(input) {
 */
 async function isUnique(element) {
     let key = element.getAttribute('key');
-    let value = element.getValue();
+    let value = await element.getValue();
     let request = {
         method: 'read.object',
         db: 'indexeddb',
