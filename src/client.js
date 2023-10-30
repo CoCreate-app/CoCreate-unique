@@ -44,7 +44,7 @@ async function isUnique(element) {
     let key = element.getAttribute('key');
     let value = await element.getValue();
     let request = {
-        method: 'read.object',
+        method: 'object.read',
         db: 'indexeddb',
         array: element.getAttribute('array'),
         $filter: {

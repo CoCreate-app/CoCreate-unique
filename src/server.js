@@ -26,7 +26,7 @@ class CoCreateUnique {
     async isUnique(data) {
         const self = this
         try {
-            data.method = 'read.object'
+            data.method = 'object.read'
             this.crud.send(data).then((data) => {
                 let response = {
                     method: 'isUnique',
