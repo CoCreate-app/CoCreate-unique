@@ -1,3 +1,11 @@
+## [1.15.8](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.15.7...v1.15.8) (2023-11-09)
+
+
+### Bug Fixes
+
+* meta name typo ([1b444be](https://github.com/CoCreate-app/CoCreate-unique/commit/1b444bef59b2cb70bcb53e3989a8072b5dd4cbc2))
+* update host ([1daad51](https://github.com/CoCreate-app/CoCreate-unique/commit/1daad51a05a75fd5c284c62d712d4de8b17e7cdf))
+
 ## [1.15.7](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.15.6...v1.15.7) (2023-11-03)
 
 
