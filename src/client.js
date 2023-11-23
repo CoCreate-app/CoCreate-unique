@@ -3,15 +3,16 @@ import crud from '@cocreate/crud-client';
 
 
 /**
-* Initializes input event listeners for the specified elements. This is a convenience method for calling setInputEvent on each element.
-* 
-* @param elements - The HTMLElement or array of HTMLElements to listen
-*/
+ * Initializes elements to ensure their values are unique. This function targets elements with the 'unique' attribute and uses CRUD operations to check if the element's value already exists.
+ * If no elements are provided, it queries and initializes all elements with the 'unique' attribute in the document.
+ *
+ * @param {(Element|Element[]|null)} [elements] - Optional. A single element, an array of elements, or null.
+ *     - If a single element or an array of elements is provided, the function checks each element's value for uniqueness.
+ *     - If null or omitted, all elements in the document with the 'unique' attribute are queried and processed for uniqueness checks.
+ */
 function init(elements) {
-    // Returns an array of unique elements
     if (!elements)
         elements = document.querySelectorAll('[unique]')
-    // If elements is not an array of elements returns an array of elements.
     else if (!Array.isArray(elements))
         elements = [elements]
     for (let element of elements)
