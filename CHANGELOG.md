@@ -1,3 +1,15 @@
+# [1.17.0](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.16.0...v1.17.0) (2023-11-25)
+
+
+### Bug Fixes
+
+* update nav, edit button and css path ([c25f121](https://github.com/CoCreate-app/CoCreate-unique/commit/c25f1219ade6febd46ea7015154f61fa3e1bca0e))
+
+
+### Features
+
+* upgrade dependencies for latest features and fixes ([265d296](https://github.com/CoCreate-app/CoCreate-unique/commit/265d296a646c5ca0bd018aebff7013fbc0b0b4d9))
+
 # [1.16.0](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.15.9...v1.16.0) (2023-11-19)
 
 
