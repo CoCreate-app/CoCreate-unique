@@ -28,16 +28,14 @@ class CoCreateUnique {
         try {
             data.method = 'object.read'
             this.crud.send(data).then((data) => {
-                let response = {
-                    method: 'isUnique',
-                    unique: true,
-                    uid: data.uid
-                };
-                // If the object is unique
+                data.method = 'isUnique'
+
                 if (data.object.length) {
-                    response.unique = false;
-                }
-                return self.wsManager.send(response);
+                    data.unique = false;
+                } else
+                    data.unique = true;
+
+                return self.wsManager.send(data);
             })
         } catch (error) {
             console.log(error);
