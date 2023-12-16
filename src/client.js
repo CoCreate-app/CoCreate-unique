@@ -44,36 +44,34 @@ function setInputEvent(input) {
 async function isUnique(element) {
     let key = element.getAttribute('key');
     let value = await element.getValue();
-    let request = {
+    let data = {
         method: 'object.read',
-        db: 'indexeddb',
+        storage: 'indexeddb',
         array: element.getAttribute('array'),
         $filter: {
             query: [{
                 key,
                 value,
                 operator: '$eq'
-            }]
+            }],
+            limit: 1
         }
     };
 
-    let data = await crud.send(request)
-    let response = {
-        element,
-        key,
-        unique: true
-    };
+    data = await crud.send(data)
 
+    let response = {}
     // If a object is returned, unique is set to false  
     if (data.object && data.object.length) {
         response.unique = false;
-    }
+    } else
+        response.unique = true
 
     // If indexedb response is unique is true, check server response  
     if (response.unique) {
-        delete request.storage
-        request.method = 'isUnique'
-        response = await crud.socket.send(request)
+        delete data.unique
+        response.method = 'isUnique'
+        response = await crud.socket.send(response)
     }
 
     // Set unique attribute on the element
