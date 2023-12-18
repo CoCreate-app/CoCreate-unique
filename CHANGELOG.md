@@ -1,3 +1,10 @@
+## [1.18.2](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.18.1...v1.18.2) (2023-12-18)
+
+
+### Bug Fixes
+
+* delete data storage and fix variable names ([9371e3b](https://github.com/CoCreate-app/CoCreate-unique/commit/9371e3b224f48e90d4c83dba48afa0ac3030d04c))
+
 ## [1.18.1](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.18.0...v1.18.1) (2023-12-18)
 
 
