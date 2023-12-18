@@ -1,3 +1,11 @@
+## [1.18.1](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.18.0...v1.18.1) (2023-12-18)
+
+
+### Bug Fixes
+
+* cleaned code ([32c00ba](https://github.com/CoCreate-app/CoCreate-unique/commit/32c00ba27355be92d25ec45f8426f79d865ff211))
+* set unique true or ffalse ([e368594](https://github.com/CoCreate-app/CoCreate-unique/commit/e368594e1acb473fadf54e31e8ebed351ac9b8c6))
+
 # [1.18.0](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.17.0...v1.18.0) (2023-11-25)
 
 

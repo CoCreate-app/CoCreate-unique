@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/unique",
-  "version": "1.18.0",
+  "version": "1.18.1",
   "description": "A simple unique component in vanilla javascript. Easily configured using HTML5 attributes and/or JavaScript API.",
   "keywords": [
     "unique",
