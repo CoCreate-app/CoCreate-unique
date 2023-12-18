@@ -69,9 +69,9 @@ async function isUnique(element) {
 
     // If indexedb response is unique is true, check server response  
     if (response.unique) {
-        delete data.unique
-        response.method = 'isUnique'
-        response = await crud.socket.send(response)
+        delete data.storage
+        data.method = 'isUnique'
+        response = await crud.socket.send(data)
     }
 
     // Set unique attribute on the element
