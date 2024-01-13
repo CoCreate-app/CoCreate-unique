@@ -49,11 +49,9 @@ async function isUnique(element) {
         storage: 'indexeddb',
         array: element.getAttribute('array'),
         $filter: {
-            query: [{
-                key,
-                value,
-                operator: '$eq'
-            }],
+            query: {
+                [key]: value
+            },
             limit: 1
         }
     };
