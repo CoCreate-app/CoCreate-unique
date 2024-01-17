@@ -1,3 +1,10 @@
+## [1.19.1](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.19.0...v1.19.1) (2024-01-17)
+
+
+### Bug Fixes
+
+* update to support new query system ([1f7b335](https://github.com/CoCreate-app/CoCreate-unique/commit/1f7b335b5eadb85db96d196f59837edd6bb9c85c))
+
 # [1.19.0](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.18.2...v1.19.0) (2024-01-08)
 
 
