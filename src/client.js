@@ -73,10 +73,8 @@ async function isUnique(element) {
     }
 
     // Set unique attribute on the element
-    if (response.unique)
-        element.setAttribute('unique', true);
-    else
-        element.setAttribute('unique', false);
+    element.setAttribute('unique', response.unique);
+    return response.unique
 
 }
 
