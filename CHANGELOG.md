@@ -1,3 +1,10 @@
+## [1.19.3](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.19.2...v1.19.3) (2024-02-17)
+
+
+### Bug Fixes
+
+* return isUnique ([c769307](https://github.com/CoCreate-app/CoCreate-unique/commit/c7693079ab0e6f9417ced95ec06fa48a25a2c244))
+
 ## [1.19.2](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.19.1...v1.19.2) (2024-02-05)
 
 
