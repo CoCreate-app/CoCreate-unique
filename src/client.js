@@ -81,7 +81,7 @@ async function isUnique(element) {
 observer.init({
     name: 'CoCreateUnique',
     observe: ['addedNodes'],
-    target: '[unique]',
+    selector: '[unique]',
     callback: mutation =>
         init(mutation.target)
 });
