@@ -1,3 +1,10 @@
+## [1.19.8](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.19.7...v1.19.8) (2024-11-02)
+
+
+### Bug Fixes
+
+* observer taget has been renamed to selector ([9433e72](https://github.com/CoCreate-app/CoCreate-unique/commit/9433e720658e242ee486b762315a3f948ff333fd))
+
 ## [1.19.7](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.19.6...v1.19.7) (2024-06-23)
 
 
