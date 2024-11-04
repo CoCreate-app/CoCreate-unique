@@ -1,3 +1,16 @@
+# [1.20.0](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.19.8...v1.20.0) (2024-11-04)
+
+
+### Bug Fixes
+
+* pretier.config.js and file formating ([11bc64f](https://github.com/CoCreate-app/CoCreate-unique/commit/11bc64f62609aabfac1486e1a647b9c768ca0004))
+
+
+### Features
+
+* add prettier.config.js and format files ([76893fb](https://github.com/CoCreate-app/CoCreate-unique/commit/76893fbfe8edef1dd11ef1f3c76e32812f1c39d8))
+* add prettier.config.js and format files ([b631510](https://github.com/CoCreate-app/CoCreate-unique/commit/b631510380825e3b25f84fbeaa718ccdad150549))
+
 ## [1.19.8](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.19.7...v1.19.8) (2024-11-02)
 
 
