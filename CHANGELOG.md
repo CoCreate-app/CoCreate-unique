@@ -1,3 +1,10 @@
+## [1.20.1](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.20.0...v1.20.1) (2024-12-09)
+
+
+### Bug Fixes
+
+* formating ([3bfb89f](https://github.com/CoCreate-app/CoCreate-unique/commit/3bfb89fec9dfb643655f3e0ba093a98e447ee7c3))
+
 # [1.20.0](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.19.8...v1.20.0) (2024-11-04)
 
 
