@@ -1,3 +1,10 @@
+## [1.20.5](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.20.4...v1.20.5) (2026-02-04)
+
+
+### Bug Fixes
+
+* update worklow ([35f755c](https://github.com/CoCreate-app/CoCreate-unique/commit/35f755ce2e3756b8729d172108bcaac91bba599c))
+
 ## [1.20.4](https://github.com/CoCreate-app/CoCreate-unique/compare/v1.20.3...v1.20.4) (2025-05-01)
 
 
