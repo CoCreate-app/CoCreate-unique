@@ -1,15 +1,15 @@
 // Check if browser, return client or server file
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
-        define(["./client.js"], function (CoCreateUnique) {
-            return factory(CoCreateUnique)
+        define(["./client.js"], function (Module) {
+            return factory(Module)
         });
     } else if (typeof module === 'object' && module.exports) {
-        const CoCreateUnique = require("./server.js")
-        module.exports = factory(CoCreateUnique);
+        const Module = require("./server.js")
+        module.exports = factory(Module);
     } else {
         root.returnExports = factory(root["./client.js"]);
     }
-}(typeof self !== 'undefined' ? self : this, function (CoCreateUnique) {
-    return CoCreateUnique;
+}(typeof self !== 'undefined' ? self : this, function (Module) {
+    return Module;
 }));
